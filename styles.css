@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 10px;
+    width: 300px;
+ }
+
+ #calc{
+    border: 1px solid #3d405b;
+    background-color: #3d405b;
+    border-radius: 0.5em;
+ }
+ 
+ #result{
+    background-color: #3d405b;
+    border: 1px solid #3d405b;
+     margin: 6px;
+     height: 48px;
+     font-size:22px;
+     color: white;
+     text-align: start;
+     /* direction: ltr; */
+     border: 1px dashed #f2cc8f;
+     border-radius: 0.5em;
+ } 
+
+
+ 
+ #btn0,#btn1,#btn2,#btn3,#btn4,#btn5,#btn6,#btn7,#btn8,#btn9,#btn-clr,#btn-pm,#btn-perc,#btn-sum, #btn-sub, #btn-mult, #btn-div, #btn-eql,#btn-dot{
+    width: 36px;
+    height: 36px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px;
+    border-radius: 0.5em;
+    border: 1px solid #3d405b;
+ }
+ 
+ #btn0, #btn1,#btn2,#btn3,#btn4,#btn5,#btn6,#btn7,#btn8,#btn9,#btn-dot{
+    background-color:#81b29a;
+    color: white;
+ }
+
+ #btn0{
+    border-radius: 12px;
+    width: 100px;
+
+ }
+ 
+ #btn-pm,#btn-perc{
+     background-color:#f4f1de;
+ } 
+ #btn-clr{
+   background-color:#e07a5f;
+ }
+ 
+ #btn-sum, #btn-sub, #btn-mult, #btn-div, #btn-eql{
+     background-color: #f2cc8f;
+     color: white;
+ } 

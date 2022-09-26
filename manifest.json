@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "My Calculator",
+    "version": "1.0",
+    "author": "IrynaHudava",
+    "action": {
+        "default_title": "Click to view the calculator",
+        "default_popup": "index.html",
+        "default_icon" : "calculator.svg"
+    }
+}
